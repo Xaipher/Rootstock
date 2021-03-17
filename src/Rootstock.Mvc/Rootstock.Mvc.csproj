@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Nullable>disable</Nullable>
+        <TargetFrameworks>net5.0;netstandard2.0</TargetFrameworks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Rootstock.Core\Rootstock.Core.csproj" />
+    </ItemGroup>
+
+</Project>

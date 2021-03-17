@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rootstock", "Rootstock\Rootstock.csproj", "{E92B6433-95B2-4598-BAB7-8EAB7357BFD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rootstock.Mvc", "Rootstock.Mvc\Rootstock.Mvc.csproj", "{C2E1C236-DCE1-4645-9DF2-5367B7B6BE09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rootstock.Core", "Rootstock.Core\Rootstock.Core.csproj", "{C65BD7CD-F46D-4A76-BF82-F9440B3F61B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E92B6433-95B2-4598-BAB7-8EAB7357BFD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E92B6433-95B2-4598-BAB7-8EAB7357BFD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E92B6433-95B2-4598-BAB7-8EAB7357BFD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E92B6433-95B2-4598-BAB7-8EAB7357BFD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2E1C236-DCE1-4645-9DF2-5367B7B6BE09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2E1C236-DCE1-4645-9DF2-5367B7B6BE09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2E1C236-DCE1-4645-9DF2-5367B7B6BE09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2E1C236-DCE1-4645-9DF2-5367B7B6BE09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C65BD7CD-F46D-4A76-BF82-F9440B3F61B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C65BD7CD-F46D-4A76-BF82-F9440B3F61B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C65BD7CD-F46D-4A76-BF82-F9440B3F61B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C65BD7CD-F46D-4A76-BF82-F9440B3F61B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

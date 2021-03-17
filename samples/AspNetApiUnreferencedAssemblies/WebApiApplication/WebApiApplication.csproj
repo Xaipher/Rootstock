@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\src\Rootstock.Mvc\Rootstock.Mvc.csproj" />
+      <ProjectReference Include="..\..\..\src\Rootstock\Rootstock.csproj" />
+        <ProjectReference Include="..\Weather.Controllers\Weather.Controllers.csproj">
+            <Private>True</Private>
+        </ProjectReference>
+      <ProjectReference Include="..\Weather.Data\Weather.Data.csproj">
+          <Private>True</Private>
+      </ProjectReference>
+      <ProjectReference Include="..\Weather\Weather.csproj">
+          <Private>True</Private>
+      </ProjectReference>
+    </ItemGroup>
+
+</Project>
