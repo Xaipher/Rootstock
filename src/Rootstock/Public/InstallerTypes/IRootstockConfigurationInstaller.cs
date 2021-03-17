@@ -4,6 +4,6 @@ namespace Rootstock
 {
     public interface IRootstockConfigurationInstaller : IRootstockInstallerMarker
     {
-        void Install(IConfiguration services);
+        void Install(IConfiguration configuration);
     }
 }
