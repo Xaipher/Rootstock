@@ -32,9 +32,9 @@ namespace Rootstock.Core
                     .RemoveRootstockAssemblyNames()
                     .RemoveMicrosoftAssemblyNames();
                 
-                foreach (var t in currentReferencedAssemblyNames)
+                foreach (var assemblyName in currentReferencedAssemblyNames)
                 {
-                    var referencedAssemblyName = t.FullName;
+                    var referencedAssemblyName = assemblyName.FullName;
                     if (loadedAssemblies.Contains(referencedAssemblyName))
                     {
                         continue;

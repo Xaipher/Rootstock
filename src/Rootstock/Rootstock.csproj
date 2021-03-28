@@ -3,6 +3,13 @@
     <PropertyGroup>
         <Nullable>enable</Nullable>
         <TargetFrameworks>net5.0;netstandard2.1</TargetFrameworks>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Rootstock</Title>
+        <Copyright>2021</Copyright>
+        <PackageProjectUrl>https://github.com/Xaipher/Rootstock</PackageProjectUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/Xaipher/Rootstock</RepositoryUrl>
+        <Authors>Jeremy Ockerman</Authors>
     </PropertyGroup>
 
     <ItemGroup>
