@@ -6,6 +6,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rootstock.Mvc", "Rootstock.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rootstock.Core", "Rootstock.Core\Rootstock.Core.csproj", "{C65BD7CD-F46D-4A76-BF82-F9440B3F61B2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DevOps", "DevOps", "{2B74FB56-8C58-45B6-B0E1-ED551ED02B25}"
+ProjectSection(SolutionItems) = preProject
+	..\.gitignore = ..\.gitignore
+	..\azure-pipelines.yml = ..\azure-pipelines.yml
+	..\LICENSE.md = ..\LICENSE.md
+	..\README.md = ..\README.md
+EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -51,7 +51,7 @@ See the available samples to learn about different ways to consume the Rootstock
 
 ### Accessing Configuration
 
-To access the configration use implement either the IRootstockConfigurationInstaller or the IRootstockInstaller
+To access the configuration context implement either the IRootstockConfigurationInstaller or the IRootstockInstaller
 
 ```csharp
 // ConfigurationInstaller.cs
