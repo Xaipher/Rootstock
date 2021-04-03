@@ -9,9 +9,15 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DevOps", "DevOps", "{2B74FB56-8C58-45B6-B0E1-ED551ED02B25}"
 ProjectSection(SolutionItems) = preProject
 	..\.gitignore = ..\.gitignore
-	..\azure-pipelines.yml = ..\azure-pipelines.yml
 	..\LICENSE.md = ..\LICENSE.md
 	..\README.md = ..\README.md
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Github", "Github", "{65803C86-4FB2-4BFA-A32C-DD3C23E5D76E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workflows", "Workflows", "{370EC413-0FDC-4DC8-AE23-D00CEB6B5F17}"
+ProjectSection(SolutionItems) = preProject
+	..\.github\workflows\dotnet.yml = ..\.github\workflows\dotnet.yml
 EndProjectSection
 EndProject
 Global
@@ -32,5 +38,9 @@ Global
 		{C65BD7CD-F46D-4A76-BF82-F9440B3F61B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C65BD7CD-F46D-4A76-BF82-F9440B3F61B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C65BD7CD-F46D-4A76-BF82-F9440B3F61B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{65803C86-4FB2-4BFA-A32C-DD3C23E5D76E} = {2B74FB56-8C58-45B6-B0E1-ED551ED02B25}
+		{370EC413-0FDC-4DC8-AE23-D00CEB6B5F17} = {65803C86-4FB2-4BFA-A32C-DD3C23E5D76E}
 	EndGlobalSection
 EndGlobal
